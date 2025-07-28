@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>techCave Museum</title>
+    <link rel="stylesheet" href="Style.CSS">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <body>
+
+    <header> 
+        <nav>
+            <a href="#" id="logo">HYME</a>
+
+            <section id="search-container">
+                <input type="search" id="search" placeholder="Search artifact">
+                <span><i class='bx bx-search'></i></span>
+            </section>
+
+            <ul>
+                <li><a href="#">EXPLORE</a></li>
+                <li><a href="#">EXHIBITIONS</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">JOIN</a></li>
+            </ul>
+        </nav>
+
+        <section id="headline">
+            <h1>Welcome to TechCave Museum</h1>
+            <p>Where Past Meets Future in Technology</p>
+            <a class="btn" href="#timeline">Start Exploring</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <div class="about-content">
+                <h2>What is TechCave Museum?</h2>
+                <p>
+                    TechCave Museum is a digital gateway into the fascinating world of technology. From the ancient origins of computing
+                    to the futuristic vision of artificial intelligence and quantum systems, TechCave serves as a curated archive and
+                    learning hub. Whether you're a student, an innovator, or just curious, this museum offers immersive
+                    experiences, interactive media, and global perspectives on how technology shapes our lives.
+                </p>
+                <p>
+                    Navigate through decades of innovation, meet historic figures who revolutionized the world, and get a glimpse of the future
+                    through visual exhibits and interactive quizzes—all at your fingertips.
+                </p>
+            </div>
+        </section>
+
+        <section class="museum-section" id="timeline">
+            <h2>🕰️ Timeline of Technology</h2>
+            <p>Explore the evolution of technology from ancient tools to AI-powered systems.</p>
+        <iframe width="708" height="408" src="https://www.youtube.com/embed/rJM3MRvGn-g" title="Evolution of Technology (Time Lapse)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="museum-section" id="retro-gallery">
+            <h2>🖥️ Retro Tech Gallery</h2>
+            <p>A look back at iconic tech like floppy disks, dial-up modems, and early mobile phones.</p>
+           <iframe width="708" height="408" src="https://www.youtube.com/embed/W5weK-0cNAY" title="My ENTIRE Retro Tech Collection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <a href="retro.html" class="btn">Learn More</a>
+        </section>
+
+        <section class="museum-section" id="future-tech">
+            <h2>🤖 Future Tech Zone</h2>
+            <p>Discover how AI, robotics, and quantum computing are shaping our tomorrow.</p>
+            <iframe width="708" height="408" src="https://www.youtube.com/embed/SzMiJFOa6w8" title="20 Emerging Technologies That Will Change The World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <a href="future.html" class="btn">Explore Future</a>
+        </section>
+
+        <section class="museum-section" id="hall-of-innovators">
+            <h2>🏛️ Hall of Innovators</h2>
+            <p>Meet the minds behind the machines—from Ada Lovelace to Steve Jobs and beyond.</p>
+            <iframe width="708" height="408" src="https://www.youtube.com/embed/qy1LrxMvIDg" title="Visionary Minds in History | Ada Lovelace&#39;s Legacy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="museum-section" id="interactive-quiz">
+            <h2>🧠 Interactive Quizzes</h2>
+            <p>Test your knowledge of historical and futuristic tech.</p>
+            <form class="quiz-form">
+                <label>1. Who is known as the father of the computer?</label><br>
+                <input type="radio" name="q1"> Alan Turing<br>
+                <input type="radio" name="q1"> Charles Babbage<br>
+                <input type="radio" name="q1"> Bill Gates<br><br>
+
+                <label>2. What does AI stand for?</label><br>
+                <input type="radio" name="q2"> Automated Input<br>
+                <input type="radio" name="q2"> Artificial Intelligence<br>
+                <input type="radio" name="q2"> Advanced Infrastructure<br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="museum-section" id="tech-by-country">
+            <h2>🌍 Tech by Country</h2>
+            <p>Explore how different nations have contributed to global technological advancement.</p>
+            <a href="country.html" class="btn">View Contributions</a>
+        </section>
+    </main>
+    <footer>
+    <div class="footer-content">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> | Powered by Afolabi O Matthew</p>
+
+        <div class="social-icons">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+
+        <form class="newsletter">
+            <label for="email">Subscribe to our newsletter</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <button id="scrollTopBtn" title="Go to top">⬆️</button>
+</footer>
+
+<script>
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+    window.onscroll = () => {
+        scrollTopBtn.style.display = window.scrollY > 100 ? "block" : "none";
+    };
+    scrollTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+</script>
+
+
+
+</body>
+</html>
